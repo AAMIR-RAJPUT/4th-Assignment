@@ -1,0 +1,218 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+    font-weight: bold !important;
+ background-color: #0275d8 !important;
+ color: #fff !important;    
+ }
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: large;
+}
+.heading{
+font-size: 32px !important;
+}
+.navbar-toggler{
+    border-color: #0275d8 !important;
+}
+.navbar-toggler:hover{
+    background-color: #fff;
+}
+.nav-item{
+    margin-left: 35px !important;
+    font-size: 15px;
+}
+.nav-item:hover{
+    font-size: large;
+}
+.card-deck{
+    padding-top: 10px;
+    margin: 20%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    justify-items: center;
+}
+#BSEK,#FBISE,#AKUEB,#BIEK{
+    height: 236px !important;
+}
+#FBISE,#BIEK,#BSEK,#AKUEB{
+    border: groove;
+}
+.card-title{
+    text-align: center;
+    text-decoration: underline;
+}
+.list 
+{
+    font-size: small !important;
+    list-style: none !important;
+}
+.list :hover
+{
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: large;
+    display: block;
+    color: #0275d8!important;
+}
+.copyright
+{
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    background-color: #0275d8 !important;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.copyright:hover
+{
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#accordionExample,.accordion
+{   
+    margin: 0px 15px 15px 15px !important;
+    max-width: 18rem;
+    float: left;
+    border-color: blue !important;
+}
+#title{
+    text-decoration: none !important;  
+}
+.introduction
+{
+   margin-top:100px !important;
+   max-width: 18rem;
+   /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    line-height: normal;
+    margin-bottom:0px !important;
+    border-color: blue;
+}
+#img{
+    max-width: 18rem;
+    height: 100%;
+    width: 100%;
+    max-height: 18rem;
+}
+#body
+{
+   max-width: 18rem;
+   height: 100%;
+   width: 200%;
+   max-height: 18rem;
+}
+.material-icons
+{
+    color:#fff;
+    display: block;
+    size: 70px;
+}
+#book,#SYLLABUS,#MODEL-PAPER,#PAST-PAPER
+{
+    color: #0275d8;
+    font-size: medium;
+}
+.fas,.fab,.far{
+    list-style: none !important;
+    padding-right: 10px !important;
+    color: #0275d8 !important;
+    text-decoration: none !important;
+}
+.fa-facebook
+{
+    padding-left: 130px !important;
+    font-size: 30px !important;
+    color:#0275d8  !important;
+}
+/* .far{
+    list-style: none !important;
+    color: #0275d8 !important;
+} */
+.text{
+    color:#fff;
+    background-color: #0275d8;
+    text-align: center;
+    font-size: 30px;
+}
+#newarrivals{
+    margin-top: 0px !important;
+    width: 18rem;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+}
+.footer
+{
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color:  whitesmoke;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.left ul li
+{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+.pagination
+{
+    font-size: 20px;
+    margin-left: 50% ;
+    color: blue !important;
+} 
+#arrow-left
+{
+    color:blue;
+    line-height: center;
+    text-align: center;
+    font-weight: bold;
+}
+.top
+{
+    position: absolute;
+    right:0px;
+    padding-right: 10px;
+    font-size: 50px;
+    padding-bottom: 50px;
+    color:#ffff;
+    scroll-behavior: smooth;
+}
+@media screen and (min-width:600px){
+    .footer{
+        width: 100%;
+    }
+  .pagination  {
+    margin-left: 60% ;
+    }
+    
+}
+@media screen and (min-width:800)
+{
+    .introduction{
+        flex-grow: initial;
+     }
+}
+@media screen and (min-width:600)
+{
+    .navbar{
+        width:100%;
+    }
+}
